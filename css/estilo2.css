@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: aquamarine;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+#aside-left{
+    flex: 10%;
+    background-color: blue;
+
+}
+#main{
+    flex: 80%;
+    background-color: rgb(156, 96, 17);
+}
+
+#aside-rigth{
+    flex: 10%;
+    background-color: blue;
+}
+footer{
+    background-color: bisque;
+}
